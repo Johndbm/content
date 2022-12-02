@@ -62,7 +62,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 ***Everything starts whenever the user must click on the trash can icon. That is why we need to start our application by listening to the typical onClick event on the delete button.***
 
 ```javascript
-/ In the component that renders each todo item we need to add a button and also an onClick listener that calls 
+// In the component that renders each todo item we need to add a button and also an onClick listener that calls 
 // the respective TodoAction.deleteTodo(task) function that we will create on the actions: 
 
 <button onClick={()=>MyActions.deleteTodo(taskToDelete)}>delete</button>
